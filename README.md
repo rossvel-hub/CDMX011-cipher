@@ -60,9 +60,8 @@ ejemplo:
 
 ## 3. Objetivos de aprendizaje
 
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
+En este proyecto trabajaremos de forma individual para aprender a construir una aplicación web (webapp) que interactuará
+con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript como tecnologías.
 
 ### HTML y CSS
 
@@ -107,8 +106,7 @@ como tecnologías.
 
 ## 4. Consideraciones generales
 
-* El equipo de coaches te dará un tiempo sugerido e indicaciones sobre si trabajar
-  sola o en equipo. Recuerda que cada una aprende a diferente ritmo.
+* El equipo de coaches te dará un tiempo sugerido. Recuerda que cada una aprende a diferente ritmo.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
   te preocupes, lo aprenderás durante este proyecto.
@@ -230,8 +228,7 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 ### Primeros pasos
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Atom](https://atom.io/) o
-   [Code](https://code.visualstudio.com/).
+   condiciones, algo como [Code](https://code.visualstudio.com/) o [Atom](https://atom.io/)
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
    [UNIX Shell](../../topics/shell),
    que es un programita que interpreta líneas de comando (command-line
@@ -241,17 +238,12 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
    también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.net/)
    que incluye [Git bash](https://git-scm.com/download/win) y si tienes Windows
    10 o superior puedes usar [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-3. Una de las integrantes del equipo debe realizar un :fork_and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) del repo de tu cohort,
-   tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura
-   en ese repo. La otra integrante del equipo deber hacer un fork **del
-   repositorio de su compañera** y
-   [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
-   hacia el mismo.
+3. Realizar un fork:fork_and_knife:
+   [fork](https://help.github.com/articles/fork-a-repo/) de este repo. 
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu *fork* a tu computadora (copia local).
 5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
-   asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
+   asume que has instalado previamente [Node.js](https://nodejs.org/dist/v14.17.1/node-v14.17.1-x86.msi) (que incluye [npm](https://docs.npmjs.com/)), si aun no lo tienes instalado puedes descargarlo: [Node.js LTS v14 Windows](https://nodejs.org/dist/v14.17.1/node-v14.17.1-x86.msi), [Node.js LTS v14 MacOS](https://nodejs.org/dist/v14.17.1/node-v14.17.1.pkg)
 6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
    pruebas unitarias (unit tests) con el comando `npm test`.
 7. Para ver la interfaz de tu programa en el navegador, usa el comando
