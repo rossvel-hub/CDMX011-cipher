@@ -60,53 +60,170 @@ ejemplo:
 
 ## 3. Objetivos de aprendizaje
 
-En este proyecto trabajaremos de forma individual para aprender a construir una aplicación web (webapp) que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript como tecnologías.
+Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en
+tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
-### HTML y CSS
+### HTML
 
-* [ ] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-* [ ] Uso de selectores de CSS.
+- [ ] **Uso de HTML semántico**
 
-### DOM
+  <details><summary>Links</summary><p>
 
-* [ ] Uso de selectores del DOM.
-* [ ] Manejo de eventos del DOM.
-* [ ] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
-(appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
+  * [HTML semántico](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
+  * [Semantics - MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+</p></details>
+
+### CSS
+
+- [ ] **Uso de selectores de CSS**
+
+  <details><summary>Links</summary><p>
+
+  * [Intro a CSS](https://curriculum.laboratoria.la/es/topics/css/01-css/01-intro-css)
+  * [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
+</p></details>
+
+- [ ] **Modelo de caja (box model): borde, margen, padding**
+
+  <details><summary>Links</summary><p>
+
+  * [Box Model & Display](https://curriculum.laboratoria.la/es/topics/css/01-css/02-boxmodel-and-display)
+  * [The box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+  * [Introduction to the CSS box model - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+  * [CSS display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
+  * [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
+</p></details>
+
+### Web APIs
+
+- [ ] **Uso de selectores del DOM**
+
+  <details><summary>Links</summary><p>
+
+  * [Manipulación del DOM](https://curriculum.laboratoria.la/es/topics/browser/02-dom/03-1-dom-methods-selection)
+  * [Introducción al DOM - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
+  * [Localizando elementos DOM usando selectores - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
+</p></details>
+
+- [ ] **Manejo de eventos del DOM (listeners, propagación, delegación)**
+
+  <details><summary>Links</summary><p>
+
+  * [Introducción a eventos - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Events)
+  * [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
+  * [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/es/docs/Web/API/EventTarget/removeEventListener)
+  * [El objeto Event](https://developer.mozilla.org/es/docs/Web/API/Event)
+</p></details>
+
+- [ ] **Manipulación dinámica del DOM**
+
+  <details><summary>Links</summary><p>
+
+  * [Introducción al DOM](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
+  * [Node.appendChild() - MDN](https://developer.mozilla.org/es/docs/Web/API/Node/appendChild)
+  * [Document.createElement() - MDN](https://developer.mozilla.org/es/docs/Web/API/Document/createElement)
+  * [Document.createTextNode()](https://developer.mozilla.org/es/docs/Web/API/Document/createTextNode)
+  * [Element.innerHTML - MDN](https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML)
+  * [Node.textContent - MDN](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
+</p></details>
 
 ### JavaScript
 
-* [ ] Manipulación de strings.
-* [ ] Uso de condicionales (if-else | switch | operador ternario)
-* [ ] Uso de bucles (for | for..in | for..of | while)
-* [ ] Uso de funciones (parámetros | argumentos | valor de retorno)
-* [ ] Declaración correcta de variables (const & let)
+- [ ] **Tipos de datos primitivos**
 
-### Testing
+  <details><summary>Links</summary><p>
 
-* [ ] [Testeo unitario.](https://jestjs.io/docs/es-ES/getting-started)
+  * [Valores primitivos - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#valores_primitivos)
+</p></details>
 
-### Estructura del código y guía de estilo
+- [ ] **Strings (cadenas de caracteres)**
 
-* [ ] Organizar y dividir el código en módulos (Modularización)
-* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica)
-* [ ] Uso de linter (ESLINT)
+  <details><summary>Links</summary><p>
 
-### Git y GitHub
+  * [Strings](https://curriculum.laboratoria.la/es/topics/javascript/06-strings)
+  * [String — Cadena de caracteres - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String)
+</p></details>
 
-* [ ] Uso de comandos de git (add | commit | pull | status | push)
-* [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages)
+- [ ] **Variables (declaración, asignación, ámbito)**
 
-### UX
+  <details><summary>Links</summary><p>
 
-* [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-* [ ] Crear prototipos para obtener feedback e iterar.
-* [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
+  * [Valores, tipos de datos y operadores](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/01-values-variables-and-types)
+  * [Variables](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/02-variables)
+</p></details>
+
+- [ ] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
+
+  <details><summary>Links</summary><p>
+
+  * [Estructuras condicionales y repetitivas](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/01-conditionals-and-loops)
+  * [Tomando decisiones en tu código — condicionales - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals)
+</p></details>
+
+- [ ] **Uso de bucles/ciclos (while, for, for..of)**
+
+  <details><summary>Links</summary><p>
+
+  * [Bucles (Loops)](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/02-loops)
+  * [Bucles e iteración - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration)
+</p></details>
+
+- [ ] **Funciones (params, args, return)**
+
+  <details><summary>Links</summary><p>
+
+  * [Funciones (control de flujo)](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/03-functions)
+  * [Funciones clásicas](https://curriculum.laboratoria.la/es/topics/javascript/03-functions/01-classic)
+  * [Arrow Functions](https://curriculum.laboratoria.la/es/topics/javascript/03-functions/02-arrow)
+  * [Funciones — bloques de código reutilizables - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Functions)
+</p></details>
+
+- [ ] **Pruebas unitarias (unit tests)**
+
+  <details><summary>Links</summary><p>
+
+  * [Empezando con Jest - Documentación oficial](https://jestjs.io/docs/es-ES/getting-started)
+</p></details>
+
+- [ ] **Módulos de ECMAScript (ES Modules)**
+
+  <details><summary>Links</summary><p>
+
+  * [import - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/import)
+  * [export - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/export)
+</p></details>
+
+- [ ] **Uso de linter (ESLINT)**
+
+- [ ] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
+
+### Control de Versiones (Git y GitHub)
+
+- [ ] **Git: Instalación y configuración**
+
+- [ ] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
+
+- [ ] **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
+
+- [ ] **GitHub: Despliegue con GitHub Pages**
+
+  <details><summary>Links</summary><p>
+
+  * [Sitio oficial de GitHub Pages](https://pages.github.com/)
+</p></details>
+
+### UX (User eXperience)
+
+- [ ] **Diseñar la aplicación pensando en y entendiendo al usuario**
+
+- [ ] **Crear prototipos para obtener feedback e iterar**
+
+- [ ] **Aplicar los principios de diseño visual (contraste, alineación, jerarquía)**
 
 ## 4. Consideraciones generales
 
-* El equipo de coaches te dará un tiempo sugerido. Recuerda que cada una aprende a diferente ritmo.
+* El equipo de coaches te dará un tiempo sugerido. Recuerda que cada una aprende
+  a diferente ritmo.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
   te preocupes, lo aprenderás durante este proyecto.
@@ -230,20 +347,21 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
    condiciones, algo como [Code](https://code.visualstudio.com/) o [Atom](https://atom.io/)
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](../../topics/shell),
+   [UNIX Shell](https://curriculum.laboratoria.la/es/topics/shell),
    que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](../../topics/scm/01-git)
+   interpreter) así como tener [git](https://curriculum.laboratoria.la/es/topics/scm/01-git)
    instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
    ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
    también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.net/)
    que incluye [Git bash](https://git-scm.com/download/win) y si tienes Windows
    10 o superior puedes usar [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 3. Realizar un fork:fork_and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) de este repo. 
+   [fork](https://help.github.com/articles/fork-a-repo/) de este repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu *fork* a tu computadora (copia local).
 5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
-   asume que has instalado previamente [Node.js](https://nodejs.org/dist/v14.17.1/node-v14.17.1-x86.msi) (que incluye [npm](https://docs.npmjs.com/)), si aun no lo tienes instalado puedes descargarlo: [Node.js LTS v14 Windows](https://nodejs.org/dist/v14.17.1/node-v14.17.1-x86.msi), [Node.js LTS v14 MacOS](https://nodejs.org/dist/v14.17.1/node-v14.17.1.pkg)
+   asume que has instalado previamente [Node.js](https://nodejs.org/dist/v14.17.1/node-v14.17.1-x86.msi) (que incluye [npm](https://docs.npmjs.com/)), si aun no lo tienes
+   instalado puedes descargarlo: [Node.js LTS v14 Windows](https://nodejs.org/dist/v14.17.1/node-v14.17.1-x86.msi), [Node.js LTS v14 MacOS](https://nodejs.org/dist/v14.17.1/node-v14.17.1.pkg)
 6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
    pruebas unitarias (unit tests) con el comando `npm test`.
 7. Para ver la interfaz de tu programa en el navegador, usa el comando
