@@ -1,14 +1,70 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CIPHER</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
+</head>
+<body class="inicio">
+    <div id="contenedorPrincipal">
+    <!--div para Titulo-->
+      <div>
+        <h3 class="titulos">CIFRADO CESAR 💕</h3>
+      </div>
+  
+        <!-- Creacion de Tab links, pestanas para llas acciones de CIFRAR Y DESCIFRAR -->
+        <div class="tab">
+          <button class="tabLinks active" id="tabCifrar">CIFRAR</button>
+          <button class="tabLinks" id="tabDescifrar">DESCIFRAR</button>
+        </div>
+
+          <!-- Contenedor  tab CIFRAR -->
+          <div id="divCifrar" class="tabContent" style="display:block;">
+            <!--Mensaje-->
+            <h3 class="titulos" >INGRESE EL MENSAJE A CIFRAR</h3>
+            <!--<input id="inputCifrar" spellcheck="false" placeholder="Ingresa el texto" type="text" >-->
+            <textarea id="inputCifrar" placeholder="Ingresa el texto" name="opinion" rows="3" cols="65"></textarea>
+            
+            <!--Creacion del boton de desplazamiento-->
+            <h3 class="titulos" >Elige las posiciones de desplazamiento</h3>
+            <input id="offsetCifrar"  type="number" value="1" min="0" max="100" class="offsetstyle">                                                       
+  
+            <!--Creacion boton CIFRAR-->
+            <button type="button" id="btnCifrar">Cifrar</button>
+            
+            <!--Creacion  de caja de texto RESULTADO DE CIFRAR-->
+            <h3 class="titulos">MENSAJE CIFRADO</h3>
+            <!--<input id="inputMensajeCifrado" spellcheck="false" placeholder="Ingresa el texto" type="Texto" name="text" >-->
+            <textarea id="inputMensajeCifrado" placeholder="Mensaje CIFRADO" name="opinion" rows="3" cols="65"></textarea>
+
+            <div id="leyendaUsoCifrar"></div>
+          
+          </div>
+
+          <!--Contenedor tab DESCIFRAR-->
+          <div id="divDescifrar" class="tabContent">
+            <!--Mensaje-->
+            <h3 class="titulos" >INGRESE EL MENSAJE A DESCIFRAR</h3>
+            <!--<input id="inputDescifrar" spellcheck="false" placeholder="Ingresa el texto" type="Texto" name="text" >-->
+            <textarea id="inputDescifrar" placeholder="Ingresa el texto" name="opinion" rows="3" cols="65"></textarea>
+            
+            <!--Creacion del boton de desplazamiento-->
+            <h3 class="titulos" >Elige las posiciones de desplazamiento</h3>
+            <input id="offsetDescifrar"  type="number" value="0" min="0" max="100" class="offsetstyle">
+            
+            <!--Creacion boton DESCIFRAR-->
+            <button type="button" id="btnDescifrar">Descifrar</button>
+
+            <!--Creacion  de caja de texto CIFRAR-->
+            <h3 class="titulos">MENSAJE DESCIFRADO</h3>
+            <!--<input id="inputMensajeDescifrado" spellcheck="false" placeholder="Ingresa el texto" type="Texto" name="text" >-->
+            <textarea id="inputMensajeDescifrado" placeholder="Mensaje DESCIFRADO" name="opinion" rows="3" cols="65"></textarea>
+            <div id="leyendaUsoDescifrar"></div>
+
+          </div>
+
+      </div>
+  
+  <script src="index.js" type="module"></script>
   </body>
-</html>
+  </html>

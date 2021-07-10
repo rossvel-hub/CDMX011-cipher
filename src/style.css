@@ -1,0 +1,172 @@
+/*define el css de el body,  selector basico*/
+body {
+    background-image: url(img/carta-love.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Source Code Pro', monospace;
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 250, 150);
+}
+
+/*define el css de h1, h3, selectores basicos*/
+h1,h3 {
+  font-family:  'Arenas movedizas', sans-serif;
+   margin: 10px;
+  color: rgb(51, 48, 48);
+}
+
+/*define el css de input, button, selectores basicos*/
+input, button {
+  border: none;
+  outline: none;
+}
+
+/*Inicializar div DESCIFRAR COMO OCULTO, selector id*/
+#divDescifrar{  
+  display: none; 
+}
+
+/*Inicializar div DESCIFRAR COMO OCULTO, SOLO PARA PRUEBA
+#divCifrar{  display: none; }*/
+
+/*define el css de el contenedor principal, donde apareceran el div DECIFRAR y el div DESCIFRAR, selector id*/
+#contenedorPrincipal {
+    padding: 25px;/*crea espacio dentro del elemento*/
+    box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+    border-radius: 4px;
+    background-color: rgb(200, 255, 248);
+}
+/*define el css de el div CIFRAR, selector id*/
+#divCifrar{
+    box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+    border-radius: 4px;
+    background: #EBD6E6;
+    margin: 15px; 
+    width: 500px; 
+    height: 400px;
+    padding: 0 30px;
+
+}
+/*define el css de el div DESCIFRAR,, selector id*/
+#divDescifrar {
+    box-shadow: 8px 8px 35px 0px rgb (0 0 0 / 75%);
+    border-radius: 4px;
+    background: #FDD0A9;
+    margin: 15px; 
+    width: 500px; 
+    height: 400px;
+    padding: 0 30px;
+
+}
+
+/*CSS de textarea cifrar y descifrar, selector id*/
+#inputCifrar {
+    font-family:  'Arenas movedizas', sans-serif;
+     margin: 10px;
+    margin: 2px 0 0;
+    padding: 5px;
+    color: rgb(5, 5, 5);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#inputDescifrar {
+    font-family:  'Arenas movedizas', sans-serif;
+     margin: 10px;
+    margin: 2px 0 0;
+    padding: 5px;
+    color: rgb(5, 5, 5);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+/*CSS boton CIFRAR, slector id*/
+#btnCifrar {
+    border-radius: 4px;
+    background-color: pink;
+    font-weight: 700;
+    margin: 10px;
+    padding: 0 5px;
+    height: 20px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+
+/*evento hover aplicado a los botones CIFRAR*/
+#btnCifrar:hover{
+     background: #30fc1d;
+}
+
+/*CSS boton DESCIFRAR, slector id*/
+#btnDescifrar {
+    border-radius: 4px;
+    background-color: rgb(252, 250, 150);
+    font-weight: 700;
+    margin: 10px;
+    padding: 0 5px;
+    height: 20px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+
+/*evento hover aplicado a los botones CIFRAR*/
+#btnDescifrar:hover{
+     background: #30fc1d;
+}
+
+.offsetstyle {
+    margin: 5px 0 0;
+    padding: 5px;
+    width: 10%;
+    color: rgb(5, 5, 5);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: grid;
+}
+
+/*CSS en "textarea resultado" del mensaje cifrado y descifrado, selector id*/
+#inputMensajeCifrado, #inputMensajeDescifrado {
+  font-family:  'Arenas movedizas', sans-serif;
+   margin: 10px;
+  margin: 2px 0 0;
+  padding: 5px;
+  color: rgb(5, 5, 5);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/*CSS TABS*/
+.tab {
+  overflow: hidden;/*overflow:  especifica: si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido excedente en un elemento a nivel de bloque.*/
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabContent {
+  /*display: none;*/
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
