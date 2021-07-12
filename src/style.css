@@ -28,37 +28,29 @@ input, button {
   display: none; 
 }
 
-/*Inicializar div DESCIFRAR COMO OCULTO, SOLO PARA PRUEBA
-#divCifrar{  display: none; }*/
-
-/*define el css de el contenedor principal, donde apareceran el div DECIFRAR y el div DESCIFRAR, selector id*/
+/*define el css de el contenedor principal, selector id*/
 #contenedorPrincipal {
     padding: 25px;/*crea espacio dentro del elemento*/
     box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
     border-radius: 4px;
     background-color: rgb(200, 255, 248);
 }
-/*define el css de el div CIFRAR, selector id*/
-#divCifrar{
+
+.contenidoCiFrarDescifrar {
     box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
     border-radius: 4px;
-    background: #EBD6E6;
     margin: 15px; 
     width: 500px; 
     height: 400px;
-    padding: 0 30px;
-
+    padding: 6px 30px;
 }
-/*define el css de el div DESCIFRAR,, selector id*/
-#divDescifrar {
-    box-shadow: 8px 8px 35px 0px rgb (0 0 0 / 75%);
-    border-radius: 4px;
-    background: #FDD0A9;
-    margin: 15px; 
-    width: 500px; 
-    height: 400px;
-    padding: 0 30px;
 
+.colorFondoCifrar{
+  background: #EBD6E6;
+}
+
+.colorFondoDescifrar {
+  background: #FDD0A9;
 }
 
 /*CSS de textarea cifrar y descifrar, selector id*/
@@ -141,7 +133,9 @@ input, button {
 
 /*CSS TABS*/
 .tab {
-  overflow: hidden;/*overflow:  especifica: si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido excedente en un elemento a nivel de bloque.*/
+  /*overflow:  especifica: si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido excedente en un elemento a nivel de bloque.*/
+  /*El contenido es recortado y no se muestran barras de posición.*/
+  overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
 }
@@ -166,7 +160,6 @@ input, button {
 
 .tabContent {
   /*display: none;*/
-  padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
 }

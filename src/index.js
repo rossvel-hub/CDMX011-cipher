@@ -8,7 +8,7 @@ document.getElementById("btnCifrar").addEventListener("click", function(){
     const text= document.getElementById("inputCifrar").value;
     const offset=document.getElementById("offsetCifrar").value;
     const mensajeCifrado = cipher.encode(offset,text);
-    
+  
     //Mostrar "Mensaje cifrado"
     document.getElementById("inputMensajeCifrado").value = mensajeCifrado;
     document.getElementById("leyendaUsoCifrar").innerHTML = "<p>Gracias por usar nuestro cipher</p>";
@@ -16,7 +16,6 @@ document.getElementById("btnCifrar").addEventListener("click", function(){
     //limpiar valores
     document.getElementById("inputCifrar").value = "";
     document.getElementById("offsetCifrar").value = "";
-
 })
 
 
@@ -34,8 +33,6 @@ document.getElementById("btnDescifrar").addEventListener("click", function(){
     //limpiar valores
     document.getElementById("inputDescifrar").value = "";
     document.getElementById("offsetDescifrar").value = "";
-    
-
 })
 
 //codigo de los tabs
